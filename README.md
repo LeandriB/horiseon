@@ -16,7 +16,6 @@ WHEN I view the heading attributes
 THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
-
 ````
 
 ## How to run this program
@@ -28,6 +27,10 @@ OR
 ## Live Preview
 
 Live version of project [here](https://leandrib.github.io/horiseon/)
+
+## Screenshot
+
+![Horiseon Preview](./assets/images/horiseon.png)
 
 ## Attributions
 
