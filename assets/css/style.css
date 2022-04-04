@@ -58,26 +58,48 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/digital-marketing-meeting.jpg"); /* Sets background image of hero class */
     background-size: cover;
     background-position: center;
 }
 
 .float-left {
-    float: left;
+    float: left; /* Sets element to float to left of it's container */
     margin-right: 25px;
 }
 
 .float-right {
-    float: right;
+    float: right; /* Sets element to float to right of it's container */
     margin-left: 25px;
 }
+
+/* Page content styling */
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+.content article {
+    margin-bottom: 20px; /* Adds spacing to margin-bottom of article elements */
+    padding: 50px; /* Helps center content within article element */
+    height: 300px; /* Sets height for ALL article elements in content class */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Sets font-styling */
+    background-color: #0072bb; /* Sets article background to blue in content class */
+    color: #ffffff; /* Sets article font to white in content class */
+}
+
+.content img {
+    max-height: 200px; /* Applies a max height to ALL img elements in content class */
+}
+
+.content h2 {
+    margin-bottom: 20px; /* Applies spacing between h2 element and p element */
+    font-size: 36px; /* Sets font-size for ALL h2 elements in content class */
+}
+
+/* Sidebar styling */
 
 .benefits {
     margin-right: 20px;
@@ -91,37 +113,19 @@ p {
 }
 
 .sidebar {
-    margin-bottom: 32px;
-    color: #ffffff;
+    margin-bottom: 32px; /* Adds spacing to margin-bottom of sidebar class selectors */
+    color: #ffffff; /* Sets sidebar content text to white */
 }
 
 .sidebar h3 {
-    margin-bottom: 10px;
-    text-align: center;
+    margin-bottom: 10px; /* Adds spacing to margin-bottom of sidebar h3 elements */
+    text-align: center; /* Aligns h3 text in center of article element */
 }
 
 .sidebar img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.content article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content img {
-    max-height: 200px;
-}
-
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    display: block; /* Sets img element to start on new line */
+    margin: 10px auto; /* First margin applies spacing to top and bottom, the second to the left and the right */
+    max-width: 150px; /* Sets max width of img element */
 }
 
 /* Footer Styling */
